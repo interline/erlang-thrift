@@ -1,3 +1,9 @@
+.eunit
 ebin/*
 deps/*
-test/*_{thrift,types,constants}.{erl,hrl}
+test/*_thrift.erl
+test/*_types.erl
+test/*_constants.erl
+test/*_thrift.hrl
+test/*_types.hrl
+test/*_constants.hrl

@@ -17,7 +17,7 @@ test: compile-thrift
 	@$(REBAR) eunit skip_deps=true
 
 clean:
-	@rm -f test/*_{thrift,types,constants}.{erl,hrl}
+	@rm -f test/*_{thrift,types,constants}.{e,h}rl
 	@$(REBAR) clean
 
 get-deps:
